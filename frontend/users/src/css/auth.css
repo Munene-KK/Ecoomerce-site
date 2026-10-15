@@ -1,0 +1,53 @@
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  margin-top: 1rem;
+}
+form {
+  background-color: white;
+  box-shadow: 4px 6px 12px gray;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  margin-bottom: 1rem;
+}
+form img {
+  object-fit: contain;
+  padding: 4px;
+  place-items: center;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+article {
+  display: flex;
+  flex-flow: column nowrap;
+}
+form input {
+  font: inherit;
+  background-color: whitesmoke;
+  border: 1px solid #333;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}
+form button {
+  background-color: crimson;
+  border: none;
+  outline: none;
+  font: inherit;
+  color: white;
+  padding: 0.5rem;
+  width: 12rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}

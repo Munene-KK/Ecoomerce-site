@@ -1,0 +1,11 @@
+.buy-items {
+  display: inline-block;
+}
+.remove {
+  border: none;
+  color: #000;
+  font: inherit;
+  margin-top: 0.6rem;
+  background-color: white;
+  cursor: pointer;
+}
